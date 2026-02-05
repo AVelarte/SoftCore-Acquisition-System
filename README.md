@@ -1,4 +1,4 @@
-FPGA-Based Electrophysiological Acquisition Platform
+#FPGA-Based Electrophysiological Acquisition Platform
 
 This repository contains an open-source, modular FPGA-based platform for the acquisition and processing of electrophysiological signals. The system is designed around a hardware-centric architecture with dedicated FPGA peripherals and an embedded soft-core processor for system control and communication.
 
