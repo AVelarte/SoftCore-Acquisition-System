@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emulador de Ventana de Comando</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        #console {
+            width: 100%;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        #input {
+            background: none;
+            border: none;
+            color: black;
+            outline: none;
+            width: 100%;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function setup(htmlComponent) {
+            htmlComponent.addEventListener("DataChanged", function(event) {
+                document.getElementById("dataDisplay").innerHTML += htmlComponent.Data;
+            }); 
+        }
+    </script>
+</head>
+
+
+<body>
+    <div id="console">
+        <div id="output"></div>
+        <div>
+            <span><label for="input"><div id="dataDisplay"></div></label></span>
+            <br/>
+        </div>
+    </div>
+
+</body>
+</html>
