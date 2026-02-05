@@ -17,8 +17,7 @@ Desktop GUI files used to configure the platform, send commands, and interact wi
 
 Documentation
 
-Basic documentation is provided within the repository.
-A detailed user guide for the custom peripheral and system operation is currently under preparation and will be added in a future update.
+In progress...
 
 Status
 
